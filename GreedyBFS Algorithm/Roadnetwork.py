@@ -74,7 +74,7 @@ G.node["j13"]['pos'] = (40, -8)
 node_pos = nx.get_node_attributes(G, 'pos')
 # call BFS to return set of all possible routes to the goal
 route_bfs = GreedyBFS()
-routes = route_bfs.g_bfs(G, "j10", 'imara daima')
+routes = route_bfs.g_bfs(G, "karen", 'imara daima')
 print(route_bfs.visited)
 route_list = route_bfs.visited
 # color the nodes in the route_bfs
